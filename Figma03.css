@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Raleway";
+}
+
+.header {
+  background-color: #3a3d46;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  transition: 0.4s ease;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #007dfc;
+}
+
+.hero {
+  background-color: #232323;
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px 0;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 70%;
+}
+
+.hero-text .title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.hero-text .title span {
+  color: #ffb800;
+}
+
+.hero-text .subtitle {
+  color: #007dfc;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.line {
+  height: 2px;
+  background-color: grey;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  color: white;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  color: black;
+  padding: 15px 30px;
+  background-color: #ffb800;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.news {
+  padding: 70px 0;
+  background-color: #f6f6f6;
+}
+
+.news h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+}
+
+.news h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  bottom: -12px;
+  left: 30px;
+}
+
+.news-grid {
+  max-height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  grid-template-rows: 300px 300px;
+}
+
+.news-grid a:first-child {
+  grid-row: 1/3;
+}
