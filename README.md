@@ -1,4 +1,4 @@
-                    ✨ FIGMA Exercise : Upbar Creation & Page Division (Responsive de Base) ✨
+                        ✨ FIGMA Exercise : Upbar Creation & Page Division (Responsive de Base) ✨
 
 
 
@@ -38,9 +38,9 @@ Code simplifié, respectant les bonnes pratiques pour une meilleure lisibilité 
 
 ## 🛠️ Installation & Utilisation
 1. Cloner le dépôt :
-
+```
 git clone https://github.com/BertrandM22/FigmaV3.git
-
+```
 
 2. Ouvrir le projet : Ouvre le fichier index.html dans ton navigateur préféré pour voir le projet.
 
